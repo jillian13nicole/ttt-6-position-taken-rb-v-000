@@ -8,9 +8,12 @@ def position_taken?(board, index)
   #   taken = true
   # end
   # taken
-  
+  puts board
    # advanced solution w/ ternary operator
   (board[index] ==  " " || board[index] == "" || board[index] == nil) ?
-    false : true
+     false : true
+
+  #  (board[index].nil?) ?
+  #    false : true
 
 end
